@@ -2,6 +2,11 @@
 
 A Tensorflow implementation of a multi-layer LSTM sentiment classifier.
 
+
+## Usage
+
+Ensure to install the [GloVe](https://www.kaggle.com/datasets/watts2/glove6b50dtxt) embeddings and the [IMDB](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews) dataset.
+
 ## Architecture
 
 This model is designed to classify movie reviews as either positive or negative. It consists of two stacked LSTM layers. The input embeddings are derived from GloVe pre-trained vectors. Sequences are padded to ensure uniform length and a masking layer is applied to inform the model to ignore padding tokens during computation. The architecture includes a fully connected dense layer with a sigmoid activation function at the output, ensuring the predictions are in the range of 0 to 1, where values closer to 1 indicate positive sentiment.
