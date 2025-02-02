@@ -2,10 +2,7 @@
 
 A Tensorflow implementation of a multi-layer LSTM sentiment classifier.
 
-
-## Usage
-
-Ensure to install the [GloVe](https://www.kaggle.com/datasets/watts2/glove6b50dtxt) embeddings and the [IMDB](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews) dataset.
+Using the [GloVe](https://www.kaggle.com/datasets/watts2/glove6b50dtxt) embeddings and the [IMDB](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews) dataset.
 
 ## Architecture
 
